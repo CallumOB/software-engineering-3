@@ -1,0 +1,13 @@
+
+public class DepartmentTest {
+	
+	Department dep1 = new Department("dep1");
+	Student s1 = new Student("s1");
+	Account a1 = new Account("a1");
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
