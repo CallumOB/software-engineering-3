@@ -1,0 +1,18 @@
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class LettingCompany {
+	private String name;
+	private List<Property> properties = new ArrayList<Property>();
+	
+	public LettingCompany(String _name) {
+		this.name = _name; 
+	}
+	
+	public void addProperty(Property property){
+		properties.add(property);
+	}
+	
+	public void computeTotalMonthlyRent()
+}

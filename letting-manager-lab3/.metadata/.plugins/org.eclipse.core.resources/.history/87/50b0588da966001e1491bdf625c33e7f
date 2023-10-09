@@ -1,0 +1,18 @@
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class Property {
+	private String name;
+	private List<Apartment> apartments = new ArrayList<Apartment>();
+	
+	public Property(String _name){
+		this.name = _name;
+	}
+	
+	public double computeMonthlyRent(){
+		double rent = 0;
+		
+		return rent;
+	}
+}

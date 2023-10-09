@@ -1,0 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class Property {
+	private String name;
+	private List<Apartment> apartments = new ArrayList<Apartment>();
+}
