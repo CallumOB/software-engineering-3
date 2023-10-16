@@ -8,9 +8,9 @@ public class JDBCExercise {
 		List<Customer> result2 = new ArrayList<>();;
 		
 		result1 = sqlDAO.findCustomerById(347);
-		System.out.println(result1);
+		System.out.println("Result 1\n" + result1);
 		
 		result2 = sqlDAO.selectCustomersByName("Mini");
-		System.out.println(result2);
+		System.out.println("Result 2\n" + result2);
 	}
 }

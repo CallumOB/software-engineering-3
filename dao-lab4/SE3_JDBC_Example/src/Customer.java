@@ -37,12 +37,23 @@ public class Customer {
 	
 	@Override
 	public String toString() {
-		return "Customer [creditLimit=" + creditLimit + ", salesRepEmployeeNumber=" + salesRepEmployeeNumber
-				+ ", country=" + country + ", postalCode=" + postalCode + ", state=" + state + ", city=" + city
-				+ ", addressLine2=" + addressLine2 + ", addressLine1=" + addressLine1 + ", phone=" + phone
-				+ ", contactFirstName=" + contactFirstName + ", customerName=" + customerName + ", contactLastName="
-				+ contactLastName + ", customerNumber=" + customerNumber + "]";
+	    return "Customer [\n" +
+	            "    creditLimit=" + creditLimit + ",\n" +
+	            "    salesRepEmployeeNumber=" + salesRepEmployeeNumber + ",\n" +
+	            "    country='" + country + "',\n" +
+	            "    postalCode='" + postalCode + "',\n" +
+	            "    state='" + state + "',\n" +
+	            "    city='" + city + "',\n" +
+	            "    addressLine2='" + addressLine2 + "',\n" +
+	            "    addressLine1='" + addressLine1 + "',\n" +
+	            "    phone='" + phone + "',\n" +
+	            "    contactFirstName='" + contactFirstName + "',\n" +
+	            "    customerName='" + customerName + "',\n" +
+	            "    contactLastName='" + contactLastName + "',\n" +
+	            "    customerNumber=" + customerNumber + "\n" +
+	            "]\n\n";
 	}
+
 
 
 	public double getCreditLimit() {
