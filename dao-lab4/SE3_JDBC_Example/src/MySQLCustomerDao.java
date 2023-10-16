@@ -86,6 +86,25 @@ public class MySQLCustomerDao implements CustomerDao {
 		return customerResult;
 	}
 	
+	public void updateCustomer(int customerNumber, int value) {
+		Connection conn = getConnection();
+		
+		if (conn != null) {
+			try {
+				Statement stmt = conn.createStatement();
+				int rowsUpdated = stmt.executeUpdate("UPDATE Customer SET creditLimit = " + value + " WHERE customerNumber = " + customerNumber);
+				
+				System.out.println("Rows Updated: " + rowsUpdated);
+				
+				stmt.close();
+				conn.close();
+		
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
 	private Customer getCustomerFromDB(ResultSet rs) {
 		Customer newCustomer = null;
 		try {	
