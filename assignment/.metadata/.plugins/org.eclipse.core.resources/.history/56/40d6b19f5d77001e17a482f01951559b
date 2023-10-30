@@ -698,7 +698,7 @@
               </children>
               <children xmi:type="umlnotation:UMLShape" xmi:id="_lN2fwHdSEe6CvouRWgkp6g" element="_lNrgoHdSEe6CvouRWgkp6g" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lN2fwndSEe6CvouRWgkp6g" element="_lNsuwHdSEe6CvouRWgkp6g" showTitle="true">
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_lN2fw3dSEe6CvouRWgkp6g" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_lN2fw3dSEe6CvouRWgkp6g" element="_lNtV0HdSEe6CvouRWgkp6g" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_lN2fxXdSEe6CvouRWgkp6g" type="guard"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lN2fxHdSEe6CvouRWgkp6g"/>
                   </children>
@@ -958,8 +958,8 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0BFgBXdREe6CvouRWgkp6g" covered="_4X2wIHdKEe6wkNh70IgNsw" event="_0Smt0XdREe6CvouRWgkp6g" message="_0BFgBHdREe6CvouRWgkp6g"/>
       <fragment xmi:type="uml:CombinedFragment" xmi:id="_lNrgoHdSEe6CvouRWgkp6g" covered="_B4bKoHdPEe6wkNh70IgNsw _4X2wIHdKEe6wkNh70IgNsw _dZrdAHdLEe6wkNh70IgNsw _8ISNcHdNEe6wkNh70IgNsw" interactionOperator="alt">
         <operand xmi:id="_lNsuwHdSEe6CvouRWgkp6g" name="User Continues">
-          <guard xmi:id="_WG8DoHdVEe6CvouRWgkp6g">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_WG8qsHdVEe6CvouRWgkp6g">
+          <guard xmi:id="_lNtV0HdSEe6CvouRWgkp6g" name="User Continues">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_lNtV0XdSEe6CvouRWgkp6g">
               <language></language>
               <body></body>
             </specification>

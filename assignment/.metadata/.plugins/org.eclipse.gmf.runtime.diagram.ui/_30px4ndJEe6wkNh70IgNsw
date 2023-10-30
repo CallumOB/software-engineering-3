@@ -1,18 +1,17 @@
-#Mon Oct 30 19:16:52 GMT 2023
+#Mon Oct 30 18:29:47 GMT 2023
 rulergrid.gridlinestyle=6
 print.margin.bottom=0.5
 print.margin.top=0.5
 print.page.height=11.0
 print.usePortrait=true
-viewport.x=282
-print.margin.left=0.5
 rulergrid.gridlinecolor=12632256
+print.margin.left=0.5
 rulergrid.gridspacing=0.125
-print.margin.right=0.5
 rulergrid.rulerunit=0
+print.margin.right=0.5
 rulergrid.snaptogrid=true
-print.page.size=Letter
 rulergrid.gridlevel=true
+print.page.size=Letter
 print.useInches=true
-zoom=1.0
 print.page.width=8.5
+zoom=1.0
