@@ -596,16 +596,16 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yfiBwHcREe6Yj8aLUZkG1w" value="1"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:id="_JqIVkHcREe6Yj8aLUZkG1w" name="removeModule">
-      <ownedParameter xmi:id="_v9ROcHcTEe6Yj8aLUZkG1w" name="selectedModules " type="_Gp9pUHNlEe6-h8qfw6bGnA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yk3i0HcTEe6Yj8aLUZkG1w" value="*"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yk27wHcTEe6Yj8aLUZkG1w" value="1"/>
-      </ownedParameter>
-    </ownedOperation>
     <ownedOperation xmi:id="_Ib3ysHcREe6Yj8aLUZkG1w" name="cancelClass">
       <ownedParameter xmi:id="_OeswcHcUEe6Yj8aLUZkG1w" name="selectedClasses" type="_jNipcHNjEe6-h8qfw6bGnA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qxy0cXcUEe6Yj8aLUZkG1w" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qxy0cHcUEe6Yj8aLUZkG1w" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_JqIVkHcREe6Yj8aLUZkG1w" name="removeModule">
+      <ownedParameter xmi:id="_v9ROcHcTEe6Yj8aLUZkG1w" name="selectedModules " type="_Gp9pUHNlEe6-h8qfw6bGnA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yk3i0HcTEe6Yj8aLUZkG1w" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yk27wHcTEe6Yj8aLUZkG1w" value="1"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
@@ -620,7 +620,6 @@
     <ownedAttribute xmi:id="_V7QlcHcQEe6Yj8aLUZkG1w" name="pageTitle" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_nYeJkHcYEe6Yj8aLUZkG1w" name="getInstance"/>
     <ownedOperation xmi:id="_99RF0HcQEe6Yj8aLUZkG1w" name="displayPage">
       <ownedParameter xmi:id="__asGEHcQEe6Yj8aLUZkG1w" name="pagePath">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
