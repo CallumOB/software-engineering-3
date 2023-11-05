@@ -988,7 +988,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1CM-xHdREe6CvouRWgkp6g" covered="_4X2wIHdKEe6wkNh70IgNsw" event="_1u-lMXdREe6CvouRWgkp6g" message="_1CM-w3dREe6CvouRWgkp6g"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yuG1NHdREe6CvouRWgkp6g" covered="_4X2wIHdKEe6wkNh70IgNsw" event="_zKq1YHdREe6CvouRWgkp6g" message="_yuG1NXdREe6CvouRWgkp6g"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yuG1NndREe6CvouRWgkp6g" covered="_WRJJgHdKEe6wkNh70IgNsw" event="_zKq1YXdREe6CvouRWgkp6g" message="_yuG1NXdREe6CvouRWgkp6g"/>
-      <message xmi:id="_yuG1MHdREe6CvouRWgkp6g" name="displayPage(removeModule)" receiveEvent="_yuG1MndREe6CvouRWgkp6g" sendEvent="_yuG1MXdREe6CvouRWgkp6g" connector="_5fgUsHdKEe6wkNh70IgNsw"/>
+      <message xmi:id="_yuG1MHdREe6CvouRWgkp6g" name="displayPage" receiveEvent="_yuG1MndREe6CvouRWgkp6g" sendEvent="_yuG1MXdREe6CvouRWgkp6g" connector="_5fgUsHdKEe6wkNh70IgNsw"/>
       <message xmi:id="_yuG1NXdREe6CvouRWgkp6g" name="displayMessage(returnMessage)" messageSort="reply" receiveEvent="_yuG1NndREe6CvouRWgkp6g" sendEvent="_yuG1NHdREe6CvouRWgkp6g" connector="_5fgUsHdKEe6wkNh70IgNsw"/>
       <message xmi:id="_0BE48HdREe6CvouRWgkp6g" name="displayModules()" receiveEvent="_0BFgAXdREe6CvouRWgkp6g" sendEvent="_0BFgAHdREe6CvouRWgkp6g" connector="_jSbuMXdNEe6wkNh70IgNsw"/>
       <message xmi:id="_0BFgBHdREe6CvouRWgkp6g" name="displayModules()" messageSort="reply" receiveEvent="_0BFgBXdREe6CvouRWgkp6g" sendEvent="_0BFgA3dREe6CvouRWgkp6g" connector="_jSbuMXdNEe6wkNh70IgNsw"/>
@@ -1454,7 +1454,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rpG2I3vrEe6WxqdwZfFKAQ" covered="_OarNEHvrEe6WxqdwZfFKAQ" event="_sASnEHvrEe6WxqdwZfFKAQ" message="_rpG2InvrEe6WxqdwZfFKAQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nvdEAnvrEe6WxqdwZfFKAQ" covered="_OarNEHvrEe6WxqdwZfFKAQ" event="_zKq1YHdREe6CvouRWgkp6g" message="_nvdEA3vrEe6WxqdwZfFKAQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nvdEBHvrEe6WxqdwZfFKAQ" covered="_JzkfEHvrEe6WxqdwZfFKAQ" event="_zKq1YXdREe6CvouRWgkp6g" message="_nvdEA3vrEe6WxqdwZfFKAQ"/>
-      <message xmi:id="_nvcc8HvrEe6WxqdwZfFKAQ" name="displayPage(addStudent)" receiveEvent="_nvdEAHvrEe6WxqdwZfFKAQ" sendEvent="_nvcc8XvrEe6WxqdwZfFKAQ" connector="_nvdrEHvrEe6WxqdwZfFKAQ"/>
+      <message xmi:id="_nvcc8HvrEe6WxqdwZfFKAQ" name="displayPage" receiveEvent="_nvdEAHvrEe6WxqdwZfFKAQ" sendEvent="_nvcc8XvrEe6WxqdwZfFKAQ" connector="_nvdrEHvrEe6WxqdwZfFKAQ"/>
       <message xmi:id="_nvdEA3vrEe6WxqdwZfFKAQ" name="displayMessage(returnMessage)" messageSort="reply" receiveEvent="_nvdEBHvrEe6WxqdwZfFKAQ" sendEvent="_nvdEAnvrEe6WxqdwZfFKAQ" connector="_nvdrEHvrEe6WxqdwZfFKAQ"/>
       <message xmi:id="_rpGPEHvrEe6WxqdwZfFKAQ" name="addStudent" receiveEvent="_rpGPEnvrEe6WxqdwZfFKAQ" sendEvent="_rpGPEXvrEe6WxqdwZfFKAQ" connector="_rpG2JHvrEe6WxqdwZfFKAQ"/>
       <message xmi:id="_rpG2InvrEe6WxqdwZfFKAQ" name="returnMessage" messageSort="reply" receiveEvent="_rpG2I3vrEe6WxqdwZfFKAQ" sendEvent="_rpG2IXvrEe6WxqdwZfFKAQ" connector="_rpG2JHvrEe6WxqdwZfFKAQ"/>
@@ -1737,7 +1737,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qh7rg3wTEe6WxqdwZfFKAQ" covered="_msJswHwTEe6WxqdwZfFKAQ" event="_q08uIHwTEe6WxqdwZfFKAQ" message="_qh7rgnwTEe6WxqdwZfFKAQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pIhBg3wTEe6WxqdwZfFKAQ" covered="_msJswHwTEe6WxqdwZfFKAQ" event="_zKq1YHdREe6CvouRWgkp6g" message="_pIhBhHwTEe6WxqdwZfFKAQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pIhBhXwTEe6WxqdwZfFKAQ" covered="_lxur4HwTEe6WxqdwZfFKAQ" event="_zKq1YXdREe6CvouRWgkp6g" message="_pIhBhHwTEe6WxqdwZfFKAQ"/>
-      <message xmi:id="_pIgacHwTEe6WxqdwZfFKAQ" name="displayPage(cancelClass)" receiveEvent="_pIhBgXwTEe6WxqdwZfFKAQ" sendEvent="_pIhBgHwTEe6WxqdwZfFKAQ" connector="_pIhBhnwTEe6WxqdwZfFKAQ"/>
+      <message xmi:id="_pIgacHwTEe6WxqdwZfFKAQ" name="displayPage" receiveEvent="_pIhBgXwTEe6WxqdwZfFKAQ" sendEvent="_pIhBgHwTEe6WxqdwZfFKAQ" connector="_pIhBhnwTEe6WxqdwZfFKAQ"/>
       <message xmi:id="_pIhBhHwTEe6WxqdwZfFKAQ" name="displayMessage(returnMessage)" messageSort="reply" receiveEvent="_pIhBhXwTEe6WxqdwZfFKAQ" sendEvent="_pIhBg3wTEe6WxqdwZfFKAQ" connector="_pIhBhnwTEe6WxqdwZfFKAQ"/>
       <message xmi:id="_qh7EcHwTEe6WxqdwZfFKAQ" name="cancelClass" receiveEvent="_qh7EcnwTEe6WxqdwZfFKAQ" sendEvent="_qh7EcXwTEe6WxqdwZfFKAQ" connector="_qh7rhHwTEe6WxqdwZfFKAQ"/>
       <message xmi:id="_qh7rgnwTEe6WxqdwZfFKAQ" name="returnMessage" messageSort="reply" receiveEvent="_qh7rg3wTEe6WxqdwZfFKAQ" sendEvent="_qh7rgXwTEe6WxqdwZfFKAQ" connector="_qh7rhHwTEe6WxqdwZfFKAQ"/>
