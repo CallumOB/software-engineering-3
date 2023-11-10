@@ -1,4 +1,4 @@
-#Mon Nov 06 16:58:29 GMT 2023
+#Fri Nov 10 13:05:59 GMT 2023
 zoom=1.0
 print.margin.right=0.5
 rulergrid.rulerunit=0
@@ -16,4 +16,4 @@ rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
 print.usePortrait=true
-viewport.y=752
+viewport.y=0
