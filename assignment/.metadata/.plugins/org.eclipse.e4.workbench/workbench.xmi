@@ -54,12 +54,13 @@
           <tags>persp.actionSet:com.ibm.xtools.transform.ui.actionSet</tags>
           <tags>persp.newWizSC:com.ibm.xtools.transform.ui.newTransformationConfigurationWizard</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_ZKyAgnNiEe6pkIdb3L0dHA" selectedElement="_ZKyAinNiEe6pkIdb3L0dHA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_ZKyAg3NiEe6pkIdb3L0dHA" containerData="1543" selectedElement="_ZKyAhHNiEe6pkIdb3L0dHA">
-              <children xsi:type="basic:PartStack" xmi:id="_ZKyAhHNiEe6pkIdb3L0dHA" elementId="projectExplorerArea" containerData="6600" selectedElement="_ZKyAhXNiEe6pkIdb3L0dHA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ZKyAg3NiEe6pkIdb3L0dHA" visible="false" containerData="1543" selectedElement="_ZKyAhnNiEe6pkIdb3L0dHA">
+              <children xsi:type="basic:PartStack" xmi:id="_ZKyAhHNiEe6pkIdb3L0dHA" elementId="projectExplorerArea" visible="false" containerData="6600" selectedElement="_ZKyAhXNiEe6pkIdb3L0dHA">
                 <tags>newtablook</tags>
+                <tags>Minimized</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAhXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_ZKuWIHNiEe6pkIdb3L0dHA"/>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_ZKyAhnNiEe6pkIdb3L0dHA" elementId="underProjectExplorerArea" visible="false" containerData="3400" selectedElement="_ZKyAh3NiEe6pkIdb3L0dHA">
+              <children xsi:type="basic:PartStack" xmi:id="_ZKyAhnNiEe6pkIdb3L0dHA" elementId="underProjectExplorerArea" visible="false" containerData="3400" selectedElement="_ZKyAiHNiEe6pkIdb3L0dHA">
                 <tags>newtablook</tags>
                 <tags>Minimized</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAh3NiEe6pkIdb3L0dHA" elementId="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" ref="_ZKvkQHNiEe6pkIdb3L0dHA"/>
@@ -68,12 +69,12 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_ZKyAinNiEe6pkIdb3L0dHA" containerData="8457" selectedElement="_ZKyAi3NiEe6pkIdb3L0dHA">
-              <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAi3NiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.editorss" containerData="8754" ref="_ZKmaUHNiEe6pkIdb3L0dHA"/>
-              <children xsi:type="basic:PartStack" xmi:id="_ZKyAjHNiEe6pkIdb3L0dHA" elementId="underEditorArea" containerData="1246" selectedElement="_ZKyAjXNiEe6pkIdb3L0dHA">
+              <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAi3NiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.editorss" containerData="8050" ref="_ZKmaUHNiEe6pkIdb3L0dHA"/>
+              <children xsi:type="basic:PartStack" xmi:id="_ZKyAjHNiEe6pkIdb3L0dHA" elementId="underEditorArea" toBeRendered="false" containerData="1950">
                 <tags>newtablook</tags>
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
-                <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAjXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.PropertySheet" ref="_ZKwLUXNiEe6pkIdb3L0dHA"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_g6A6wXdMEe6wkNh70IgNsw" elementId="org.eclipse.ui.console.ConsoleView" ref="_g6A6wHdMEe6wkNh70IgNsw"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ZKyAjXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" ref="_ZKwLUXNiEe6pkIdb3L0dHA"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_g6A6wXdMEe6wkNh70IgNsw" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_g6A6wHdMEe6wkNh70IgNsw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4l-H0XdOEe6wkNh70IgNsw" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_4l-H0HdOEe6wkNh70IgNsw"/>
               </children>
             </children>
@@ -106,19 +107,11 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_ZKmaUHNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.editorss" selectedElement="_ZKmaUXNiEe6pkIdb3L0dHA">
-      <children xsi:type="basic:PartStack" xmi:id="_ZKmaUXNiEe6pkIdb3L0dHA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ZkXvwHNjEe6-h8qfw6bGnA">
+      <children xsi:type="basic:PartStack" xmi:id="_ZKmaUXNiEe6pkIdb3L0dHA" elementId="org.eclipse.e4.primaryDataStack">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_ZkXvwHNjEe6-h8qfw6bGnA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="school-analysis.emx" iconURI="platform:/plugin/com.ibm.xtools.modeler.ui.editors/icons/modelfile.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.xtools.modeler.ui.editors.internal.ModelEditor&quot; name=&quot;school-analysis.emx&quot; partName=&quot;school-analysis.emx&quot; title=&quot;school-analysis.emx&quot; tooltip=&quot;assignment/school-analysis.emx&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/assignment/school-analysis.emx&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.ibm.xtools.modeler.ui.editors.internal.ModelEditor</tags>
-          <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ZKuWIHNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" closeable="true">
@@ -139,11 +132,17 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_ZTtTAXNiEe6pkIdb3L0dHA" elementId="com.ibm.xtools.rmp.ui.diagram.layers.LayersView"/>
+      <toolbar xmi:id="_ZTtTAXNiEe6pkIdb3L0dHA" elementId="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ZKwLUHNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_it6-QICVEe6DcJDH4crVRA" elementId="org.eclipse.ui.views.ContentOutline">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_it6-QYCVEe6DcJDH4crVRA" elementId="org.eclipse.ui.views.ContentOutline"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ZKwLUXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
@@ -153,7 +152,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_ZVifAXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.PropertySheet"/>
+      <toolbar xmi:id="_ZVifAXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ZKyAgHNiEe6pkIdb3L0dHA" elementId="com.ibm.xtools.modeler.ui.internal.ui.views.InheritanceExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Inheritance Explorer" iconURI="platform:/plugin/com.ibm.xtools.modeler.ui.views/icons/temp_IE/enabled/hierarchy_co.gif" closeable="true">
       <tags>View</tags>
@@ -185,7 +184,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ZFScgHNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oVWfsH-3Ee6YPpUP9E3FkA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Y1ee4HNiEe6pkIdb3L0dHA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Sh7xcICNEe6DcJDH4crVRA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Y1ee4HNiEe6pkIdb3L0dHA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ZFScgXNiEe6pkIdb3L0dHA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -209,7 +208,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ZFSchXNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oVXGxX-3Ee6YPpUP9E3FkA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Y1dQ9HNiEe6pkIdb3L0dHA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Sh8YhYCNEe6DcJDH4crVRA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Y1dQ9HNiEe6pkIdb3L0dHA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ZFSchnNiEe6pkIdb3L0dHA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -247,10 +246,13 @@
       <children xsi:type="menu:ToolControl" xmi:id="_Zvi6cHNiEe6pkIdb3L0dHA" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_UeU38HcREe6Yj8aLUZkG1w" elementId="projectExplorerArea(com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+      <children xsi:type="menu:ToolControl" xmi:id="_UeU38HcREe6Yj8aLUZkG1w" elementId="projectExplorerArea(com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_Ur6oAHcREe6Yj8aLUZkG1w" elementId="underProjectExplorerArea(com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_gwqAUICVEe6DcJDH4crVRA" elementId="org.eclipse.ui.editorss(com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
     </trimBars>
