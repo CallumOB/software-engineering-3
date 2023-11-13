@@ -43,7 +43,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_Gp_eg3NlEe6-h8qfw6bGnA" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_Gp_ehHNlEe6-h8qfw6bGnA" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Gp_ehXNlEe6-h8qfw6bGnA" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gp-3cXNlEe6-h8qfw6bGnA" x="35187" y="11095"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gp-3cXNlEe6-h8qfw6bGnA" x="34870" y="11095"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_k2RosHcPEe6Yj8aLUZkG1w" element="_k2MwMHcPEe6Yj8aLUZkG1w" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_k2Td4HcPEe6Yj8aLUZkG1w" type="ImageCompartment">
