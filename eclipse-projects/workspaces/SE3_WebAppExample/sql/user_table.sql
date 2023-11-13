@@ -4,7 +4,7 @@ CREATE TABLE user (
   LAST_NAME varchar(50) NOT NULL,
   USERNAME varchar(20) NOT NULL,
   PASSWORD varchar(20) NOT NULL,
-  PRIMARY KEY  (ID)
+  PRIMARY KEY  (ID)h
   );
   
   INSERT INTO user VALUES (null, "John", "Smith", "smithj", "password"),
