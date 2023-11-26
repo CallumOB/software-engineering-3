@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import com.example.business.User;
 import com.example.exceptions.DaoException;
+import java.util.List; // needed for method getAllUsers()
+import java.util.ArrayList;
 
 
 public class UserDao extends Dao {
@@ -51,6 +53,12 @@ public class UserDao extends Dao {
             }
         }
         return u;     // u may be null 
+    }
+    
+    public List<User> getAllUsers() {
+    	List<User> user_list = new ArrayList<>();
+    	
+    	
     }
    
 }
