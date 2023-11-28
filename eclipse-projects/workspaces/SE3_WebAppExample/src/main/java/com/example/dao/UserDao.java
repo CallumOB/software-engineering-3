@@ -55,10 +55,46 @@ public class UserDao extends Dao {
         return u;     // u may be null 
     }
     
-    public List<User> getAllUsers() {
+    public List<User> getAllUsers() throws DaoException {
     	List<User> user_list = new ArrayList<>();
+    	Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        
+        try {
+        	con = this.getConnection();
+        	
+        	String query = "SELECT * FROM USER";
+        	ps = con.prepareStatement(query);
+        	
+        	rs = ps.executeQuery();
+        	while (rs.next()) {
+        		int userId = rs.getInt("ID");
+                String username = rs.getString("USERNAME");
+                String password = rs.getString("PASSWORD");
+                String lastname = rs.getString("LAST_NAME");
+                String firstname = rs.getString("FIRST_NAME");
+                user_list.add(new User(userId, firstname, lastname, username, password));
+        	}
+        } catch (SQLException e) {
+        	throw new DaoException("getAAllUsers " + e.getMessage());
+        } finally {
+            try {
+                if (rs != null) {
+                    rs.close();
+                }
+                if (ps != null) {
+                    ps.close();
+                }
+                if (con != null) {
+                    freeConnection(con);
+                }
+            } catch (SQLException e) {
+                throw new DaoException("findUserByUsernamePassword" + e.getMessage());
+            }
+        }
     	
-    	
+        return user_list;
     }
    
 }
